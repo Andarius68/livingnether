@@ -5,14 +5,14 @@ mobs:register_mob("livingnether:sokaarcher", {
 	type = "monster",
 	-- aggressive, shoots shuriken
 	passive = false,
-	damage = 13,
+	damage = 26,
 	attack_type = "shoot",
 	shoot_interval = 2,
 	arrow = "livingnether:sarrow",
 	shoot_offset = 2,
 	attacks_monsters = false,
 	-- health & armor
-	hp_min = 50, hp_max = 100, armor = 100,
+	hp_min = 100, hp_max = 200, armor = 100,
 	-- textures and model
 	collisionbox = {-0.35,-1.0,-0.35, 0.35,0.8,0.35},
 	visual = "mesh",
@@ -66,7 +66,7 @@ mobs:spawn({
 	name = "livingnether:sokaarcher",
 	nodes = {"nether:rack_deep"},
 	min_light = 0,
-	interval = 60,
+	interval = 30,
 	active_object_count = 3,
 	chance = 8000, -- 15000
 	min_height = -18000,
