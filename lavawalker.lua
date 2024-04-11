@@ -7,9 +7,9 @@ stepheight = 4,
         attack_type = "dogfight",
 	attack_animals = true,
 	reach = 4,
-        damage = 17,
-	hp_min = 200,
-	hp_max = 700,
+        damage = 25,
+	hp_min = 300,
+	hp_max = 1050,
 	armor = 100,
 	collisionbox = {-1.5, -0.01, -1.5, 1.5, 1.5, 1.5},
 	visual = "mesh",
@@ -72,7 +72,7 @@ mobs:spawn({
 	min_light = 0,
 	interval = 60,
 	active_object_count = 3,
-	chance = 8000, -- 15000
+	chance = 4000, -- 15000
 	min_height = -18000,
 	max_height = -3000,
 
