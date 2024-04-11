@@ -70,7 +70,7 @@ mobs:spawn({
 	name = "livingnether:lavawalker",
 	nodes = {"nether:rack"},
 	min_light = 0,
-	interval = 60,
+	interval = 20,
 	active_object_count = 3,
 	chance = 4000, -- 15000
 	min_height = -18000,
