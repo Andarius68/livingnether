@@ -76,7 +76,7 @@ view_range = 20,
 if not mobs.custom_spawn_livingnether then
 mobs:spawn({
 	name = "livingnether:noodlemaster",
-	nodes = {"nether:rack_deep"},
+	nodes = {"nether:rack_deep", "nether:rack"},
 	min_light = 0,
 	interval = 250,
 	chance = 8000, -- 15000
