@@ -64,7 +64,7 @@ mobs:register_mob("livingnether:sokaarcher", {
 if not mobs.custom_spawn_livingnether then
 mobs:spawn({
 	name = "livingnether:sokaarcher",
-	nodes = {"nether:rack_deep", "nether:rack"},
+	nodes = {"nether:rack_deep", "nether:glowstone"},
 	min_light = 0,
 	interval = 30,
 	active_object_count = 3,
